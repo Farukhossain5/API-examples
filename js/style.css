@@ -1,0 +1,26 @@
+#countries-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:15px;
+}
+.country{
+    border:1px solid salmon;
+    background:rgb(225, 209, 225);
+    padding: 20px;
+    border-radius:10px ;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: palevioletred;
+    font-style: oblique;
+    font-weight: 1000;
+    font-size: xx-large;
+}
+button{
+    background: rgb(78, 78, 235);
+    border-radius: 5px;
+    color:aliceblue;
+    border: 0;
+    padding:10px 20px ;
+}
